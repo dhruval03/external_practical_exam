@@ -19,4 +19,4 @@ class TasksProvider with ChangeNotifier {
     await _taskService.addTask(task);
     await _taskService.cacheTask(task);
   }
-}
+} 
