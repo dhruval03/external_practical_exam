@@ -14,7 +14,7 @@ class TaskItem extends StatelessWidget {
         value: task.isCompleted,
         onChanged: (bool? value) {
           // Handle task completion toggle
-        },
+        }, 
       ),
     );
   }
