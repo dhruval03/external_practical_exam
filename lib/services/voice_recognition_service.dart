@@ -19,5 +19,5 @@ class VoiceRecognitionService {
 
   void stop() {
     _speech.stop();
-  }
+  } 
 }
